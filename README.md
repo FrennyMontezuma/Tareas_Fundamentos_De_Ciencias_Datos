@@ -42,6 +42,6 @@ Exploración de los perfiles profesionales dentro del ecosistema de datos junto 
 
 Contenido y asignaciones correspondientes al segundo bloque del curso:
 
-*   📄 **[Materia _ Semana 01.pdf](Módulo_02/Materia%20_%20Semana%2001.pdf)**: Documento de lectura general y materia asignada para la primera semana del Módulo 02. *(Haz clic en el enlace para abrir el PDF)*
+*   📄 **[Materia _ Semana 01.pdf](Módulo_02/Materia%20_%20Semana%2001.pdf)**)*
 
 ---
