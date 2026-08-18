@@ -46,7 +46,7 @@ Contenido y asignaciones correspondientes al segundo bloque del curso:
 
 ---
 
-### 📌 Módulo 3: Estadística Aplicada al Negocio — Análisis Descriptivo e Inferencial
+# 📌 Módulo 3: Estadística Aplicada al Negocio — Análisis Descriptivo e Inferencial
 
 En este repositorio se recopilan los mapas conceptuales, esquemas visuales y scripts en Python desarrollados durante el Módulo 3.
 
@@ -57,28 +57,28 @@ En este repositorio se recopilan los mapas conceptuales, esquemas visuales y scr
 ### 📊 Tema 1: Análisis Descriptivo Avanzado
 *Medidas de posición (cuartiles, percentiles), diagrama de caja (boxplot), detección de valores atípicos mediante el RIC, forma de la distribución y coeficiente de variación.*
 
-![Tema 01 - Análisis Descriptivo Avanzado](./Tema01.jpg)
+![Tema 01 - Análisis Descriptivo Avanzado](./Módulo_03/Tema01.jpg)
 
 ---
 
 ### ⚙️ Tema 2: Pruebas Estadísticas Básicas
 *Estructura de las pruebas de hipótesis ($H_0$ vs. $H_1$), nivel de significancia ($\alpha$), valor $p$, errores Tipo I / II y prueba t de una muestra.*
 
-![Tema 02 - Pruebas Estadísticas Básicas](./Tema02.jpg)
+![Tema 02 - Pruebas Estadísticas Básicas](./Módulo_03/Tema02.jpg)
 
 ---
 
 ### 🔀 Tema 3: Comparación de Grupos
 *Criterios para seleccionar pruebas de comparación: prueba t para muestras independientes, prueba t para muestras pareadas y ANOVA.*
 
-![Tema 03 - Comparación de Grupos](./Tema03.jpg)
+![Tema 03 - Comparación de Grupos](./Módulo_03/Tema03.jpg)
 
 ---
 
 ### 📈 Tema 4: Interpretación de Resultados
 *Significancia estadística vs. significancia práctica, control de errores comunes y marco para comunicar conclusiones a la toma de decisiones.*
 
-![Tema 04 - Interpretación de Resultados](./Tema04.jpg)
+![Tema 04 - Interpretación de Resultados](./Módulo_03/Tema04.jpg)
 
 ---
 
@@ -126,6 +126,22 @@ plt.axhline(
 plt.axhline(
     lim_inf, color="red", linestyle="--", label=f"Lím. Inferior ({lim_inf})"
 )
+
+plt.title("Monto de Compras por Cliente", fontsize=12, fontweight="bold")
+plt.xlabel("Cliente")
+plt.ylabel("Monto ($)")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+
+
+
+
+
+
+
+
 
 plt.title("Monto de Compras por Cliente", fontsize=12, fontweight="bold")
 plt.xlabel("Cliente")
